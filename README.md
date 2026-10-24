@@ -35,9 +35,9 @@ I learn best by building. I like backends, Linux, privacy tools and anything tha
 ### 🧊 Secure Cold-Chain Monitor *(simulated)* · 2026
 A simulated system that monitors vaccines and medications in transit: temperature, shocks, light exposure and door openings. Every reading goes into an **encrypted, tamper-evident log** that anyone can verify afterwards to confirm the data is genuine.
 
-### 🤝 LocalFix · 2025
-A full-stack web platform that connects people who need a hand with helpers in their own community. Users post small tasks (homework, tech support, errands), filter the task board by category and follow each task from *open* to *done*.
-**Stack:** Spring Boot / Node.js · SQL · HTML/CSS/JS · Bootstrap
+### 🤝 LocalFix · 2025 *(group project)*
+A web platform that connects people who need a hand with helpers in their own community. Users post small tasks (homework, tech support, errands), filter the task board by category and follow each task from *open* to *done*.
+**My part:** the front end (HTML/CSS/JS · Bootstrap) and the project report. Teammates built the back end and database.
 🔗 [Repository](https://github.com/Damiiner/LocalFix) · Live demo: *coming soon*
 
 ### 🛒 ShopFlow · 2025

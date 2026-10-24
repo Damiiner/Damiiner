@@ -43,7 +43,7 @@ A simulated ESP32-S3 device that monitors vaccines and medications in transit: t
 
 Every record is **hash-chained (SHA-256) and HMAC-signed**, so tampering with the log is detected. A Python verifier and a live web dashboard check the chain, and `forge.py` simulates a forged record so you can watch verification fail. The dashboard can also draft an incident report: an LLM writes it when an API key is set, otherwise a template does.
 
-> ⚠️ **Simulation only.** The signing key is a demo key and the MQTT broker is a public one. A real deployment would use secure key storage and public-key signatures, so that anyone could verify the log without sharing a secret.
+> ⚠️ **Simulation only.** The signing key is a demo key and the MQTT broker is a public one.
 
 **Stack:** C++ (Arduino framework, PlatformIO) · Python · MQTT · Wokwi
 🔗 [Repository](https://github.com/Damiiner/secure-cold-chain-monitor) · Live simulation: *coming soon*

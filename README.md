@@ -38,11 +38,11 @@ A simulated system that monitors vaccines and medications in transit: temperatur
 ### 🤝 LocalFix · 2025
 A full-stack web platform that connects people who need a hand with helpers in their own community. Users post small tasks (homework, tech support, errands), filter the task board by category and follow each task from *open* to *done*.
 **Stack:** Spring Boot / Node.js · SQL · HTML/CSS/JS · Bootstrap
-🔗 [Repository](https://github.com/Daminner/LocalFix) · Live demo: *coming soon*
+🔗 [Repository](https://github.com/Damiiner/LocalFix) · Live demo: *coming soon*
 
 ### 🛒 ShopFlow · 2025
 An e-commerce platform where sellers list their products and customers buy them online.
-🔗 [Repository](https://github.com/Daminner/ShopFlow) · Live demo: *coming soon*
+🔗 [Repository](https://github.com/Damiiner/ShopFlow) · Live demo: *coming soon*
 
 ---
 

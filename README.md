@@ -4,7 +4,7 @@
 I learn best by building. I like web back ends, Linux, privacy tools and anything that has to be reliable.
 
 🎓 Third year, graduating in 2027
-🔎 **Looking for a final-year (PFE) internship in 2027** on real web projects
+🔎 **Looking for a final-year (PFE) internship in 2027** on real web projects\ln
 🌍 Arabic (native) · English (C1) · French (A2) · German (A2)
 
 ---

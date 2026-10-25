@@ -1,81 +1,141 @@
-# Hi, I'm Amine 👋
+<div align="center">
 
-**Software Engineering student** at the Faculty of Sciences of Monastir (FSM), Tunisia 🇹🇳
-I learn best by building. I like web back ends, Linux, privacy tools and anything that has to be reliable.
+<!-- Animated Banner -->
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1a2332,100:0D1117&height=180&section=header&text=Amine%20Khiareddine&fontSize=42&fontColor=58A6FF&animation=fadeIn&fontAlignY=35&desc=Software%20Engineering%20Student%20%7C%20Builder%20%7C%20Linux%20%26%20Privacy&descAlignY=55&descSize=14" width="100%"/>
 
-🎓 Third year, graduating in 2027
-🔎 **Looking for a final-year (PFE) internship in 2027** on real web projects
+<!-- Typing Animation -->
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=22&duration=3500&pause=1200&color=58A6FF&center=true&vCenter=true&width=700&lines=Software+Engineering+student+at+FSM+%F0%9F%87%B9%F0%9F%87%B3;Building+reliable+web+backends+%26+IoT+systems;Looking+for+PFE+internship+in+2027;Linux+%E2%80%A2+Privacy+tools+%E2%80%A2+Clean+code)](https://git.io/typing-svg)
 
-🌍 Arabic (native) · English (C1) · French (A2) · German (A2)
+<br/>
 
----
+<!-- Profile Views + Social -->
+![Profile Views](https://komarev.com/ghpvc/?username=Damiiner&color=58A6FF&style=flat-square&label=Profile+Views)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Amine_Khiareddine-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/amine-khiareddine-a41749417)
+[![Email](https://img.shields.io/badge/Email-aminkhiareddin@gmail.com-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:aminkhiareddin@gmail.com)
 
-## 🛠️ What I use
-
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1)
-![PlatformIO](https://img.shields.io/badge/PlatformIO-F5822A?logo=platformio&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?logo=mqtt&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
-
-**Web services:** REST · SOAP **Databases:** SQL · H2 · MongoDB **Tools:** Postman · Wokwi
+</div>
 
 ---
 
-## 🚀 Projects
+### 👋 About Me
 
-### 🧊 Secure Cold-Chain Monitor *(simulated)* · 2026
-A simulated ESP32-S3 device that monitors vaccines and medications in transit: temperature, shocks, light exposure and door openings. Readings are published over MQTT.
+I'm **Amine**, a third-year Software Engineering student at the **Faculty of Sciences of Monastir (FSM)**, Tunisia 🇹🇳.  
+I learn best by building real things — especially **web backends**, **Linux systems**, and **privacy-focused tools**.
 
-Every record is **hash-chained (SHA-256) and HMAC-signed**, so tampering with the log is detected. A Python verifier and a live web dashboard check the chain, and `forge.py` simulates a forged record so you can watch verification fail. The dashboard can also draft an incident report: an LLM writes it when an API key is set, otherwise a template does.
-
-> ⚠️ **Simulation only.** The signing key is a demo key and the MQTT broker is a public one.
-
-**Stack:** C++ (Arduino framework, PlatformIO) · Python · MQTT · Wokwi
-🔗 [Repository](https://github.com/Damiiner/secure-cold-chain-monitor) · Live simulation: *coming soon*
-
-### 🛒 ShopFlow · 2025
-An e-commerce platform where sellers list their products and customers buy them online. The front end and back end are separate applications in one repository, and the API is documented with a Postman collection.
-<!-- TODO: add the stack (back end, database) and main features -->
-🔗 [Repository](https://github.com/Damiiner/ShopFlow) · Live demo: *coming soon*
-
-### 🤝 LocalFix · 2025 *(group project)*
-A community platform that connects people who need a hand with helpers nearby. Users post small tasks (homework, tech support, errands), filter the task board by category, follow each task from *open* to *done* and browse tasks on an interactive map.
-
-**My part:** the front end (React, Vite, React Router, Leaflet) and the project report. Teammates built the back end and database, which are not in this repository. The front end runs on its own with sample data.
-🔗 [Repository](https://github.com/Damiiner/LocalFix) · 📄 [Project report (PDF)](https://github.com/Damiiner/LocalFix/blob/main/docs/LocalFix-report.pdf) · Live demo: *coming soon*
-
-### 🔨 In progress: QueueLess · 2026
-A virtual queue for students: take a digital ticket instead of waiting in person at an administrative office. The goal is a ticket with a position in the queue, an estimated waiting time, a notification when your turn approaches and a dashboard for the staff.
-🔗 [Repository](https://github.com/Damiiner/QueueLess) · The README lists what works today.
+- 🎓 Graduating in **2027**
+- 🔎 Looking for a **final-year (PFE) internship in 2027** on real web projects
+- 🌍 Arabic (native) · English (C1) · French (A2) · German (A2)
+- 🐧 Linux tinkerer · Privacy advocate · Strategy games enthusiast
 
 ---
 
-## 🌱 Beyond code
+### 🛠️ Tech Stack
 
-- 🐧 **Linux:** trying out different distributions and tuning my setups
-- 🔒 **Privacy & open source:** using privacy tools and exploring open-source alternatives to everyday software
-- ♟️ **Strategy games:** theory-crafting deck-building strategies
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=java,spring,nodejs,js,react,vite,python,c,cpp,html,css,bootstrap,mongodb,postgres,linux,git,github,arduino&perline=9" />
+
+<br/><br/>
+
+**Also working with:** REST · SOAP · MQTT · PlatformIO · Wokwi · Postman · H2 · MongoDB
+
+</div>
 
 ---
 
-## 📫 Let's connect
+### 📊 GitHub Stats
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Amine_Khiareddine-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/amine-khiareddine-a41749417)
-[![Email](https://img.shields.io/badge/Email-aminkhiareddin@gmail.com-D14836?logo=gmail&logoColor=white)](mailto:aminkhiareddin@gmail.com)
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=Damiiner&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&icon_color=58A6FF&text_color=c9d1d9" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Damiiner&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=58A6FF&text_color=c9d1d9" />
+</div>
 
-*Open to feedback, ideas and good Linux tips.*
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Damiiner&theme=tokyonight&hide_border=true&background=0D1117&stroke=58A6FF&ring=58A6FF&fire=58A6FF&currStreakLabel=58A6FF" />
+</div>
+
+---
+
+### 🚀 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%">
+      <h3>🧊 Secure Cold-Chain Monitor</h3>
+      <p><em>Simulated ESP32-S3 · 2026</em></p>
+      <p>Temperature, shock, light & door monitoring for vaccines/meds in transit. Data published over MQTT. Every record is <strong>SHA-256 hash-chained + HMAC-signed</strong>. Includes Python verifier, live dashboard, and a forge simulator.</p>
+      <p>⚠️ Simulation only (demo key + public broker)</p>
+      <p>
+        <code>C++</code> <code>PlatformIO</code> <code>Python</code> <code>MQTT</code> <code>Wokwi</code>
+      </p>
+      <a href="https://github.com/Damiiner/secure-cold-chain-monitor">Repository</a>
+    </td>
+    <td width="50%">
+      <h3>🛒 ShopFlow</h3>
+      <p><em>E-commerce platform · 2025</em></p>
+      <p>Sellers list products, customers buy online. Separate frontend & backend in one repo. Full Postman collection for the API.</p>
+      <p>
+        <!-- Add real stack when ready -->
+        <code>Coming soon</code>
+      </p>
+      <a href="https://github.com/Damiiner/ShopFlow">Repository</a>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%">
+      <h3>🤝 LocalFix</h3>
+      <p><em>Community platform · 2025 (group project)</em></p>
+      <p>People post small tasks (homework, tech help, errands). Filter by category, track status, and browse on an interactive map. I built the full frontend + project report.</p>
+      <p>
+        <code>React</code> <code>Vite</code> <code>React Router</code> <code>Leaflet</code>
+      </p>
+      <a href="https://github.com/Damiiner/LocalFix">Repository</a> · 
+      <a href="https://github.com/Damiiner/LocalFix/blob/main/docs/LocalFix-report.pdf">Report (PDF)</a>
+    </td>
+    <td width="50%">
+      <h3>🔨 QueueLess</h3>
+      <p><em>In progress · 2026</em></p>
+      <p>Virtual queue system for students. Digital ticket → position + estimated wait time → notification when your turn approaches + staff dashboard.</p>
+      <p>
+        <a href="https://github.com/Damiiner/QueueLess">Repository</a> · See README for current status
+      </p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🌱 Beyond Code
+
+- 🐧 Exploring different Linux distros and tuning my setups
+- 🔒 Using privacy tools and open-source alternatives to everyday software
+- ♟️ Theory-crafting deck-building strategies in strategy games
+
+---
+
+### 🐍 Contribution Snake
+
+<!-- 
+  To activate the animated snake:
+  1. Create a repo named exactly like your username (Damiiner)
+  2. Add the workflow from: https://github.com/Platane/snk
+  3. Uncomment the picture block below
+-->
+
+<!--
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Damiiner/Damiiner/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Damiiner/Damiiner/output/github-contribution-grid-snake.svg" />
+  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/Damiiner/Damiiner/output/github-contribution-grid-snake.svg" />
+</picture>
+-->
+
+---
+
+<div align="center">
+
+**Open to feedback, ideas, good Linux tips, and interesting problems.**
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:1a2332,100:0D1117&height=100&section=footer" width="100%"/>
+
+</div>

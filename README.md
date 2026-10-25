@@ -1,57 +1,68 @@
-# Hi, I'm Amine 👋
-**Software Engineering student** at the Faculty of Sciences of Monastir (FSM), Tunisia 🇹🇳
-I learn best by building. I like web back ends, Linux, privacy tools and anything that has to be reliable.
-🎓 Third year, graduating in 2027
-🔎 **Looking for a final-year (PFE) internship in 2027** on real web projects
-🌍 Arabic (native) · English (C1) · French (A2) · German (A2)
+**Amine Khiareddine**
+Software Engineering Student · Faculty of Sciences of Monastir (FSM)
+Third-year student who learns by building. I design and ship full-stack systems, connected devices, and
+machine-learning prototypes with a focus on reliability, clarity, and maintainable code. Currently
+seeking a final-year (PFE) internship in 2027 to contribute to real production projects.
+**Languages**
+Arabic (native) · English (C1) · French (A2) · German (A2)
 ---
-## 🛠️ What I use
-![Java](https://img.shields.io/badge/Java-ED8B00?logo=openjdk&logoColor=white)
-![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?logo=springboot&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
-![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
-![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=black)
-![C++](https://img.shields.io/badge/C++-00599C?logo=cplusplus&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
-![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?logo=bootstrap&logoColor=white)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?logo=mongodb&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-4479A1)
-![PlatformIO](https://img.shields.io/badge/PlatformIO-F5822A?logo=platformio&logoColor=white)
-![MQTT](https://img.shields.io/badge/MQTT-660066?logo=mqtt&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
-**Web services:** REST · SOAP **Databases:** SQL · H2 · MongoDB **Tools:** Postman · Wokwi
+### Stack
+![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square&logo=openjdk&logoColor=white)
+![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=flat-
+square&logo=springboot&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-
+square&logo=javascript&logoColor=black)
+![React](https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square)
+![PlatformIO](https://img.shields.io/badge/PlatformIO-F5822A?style=flat-
+square&logo=platformio&logoColor=white)
+![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+**Additional**
+REST · SOAP · H2 · Postman · Wokwi · ESP32
 ---
-## 🚀 Projects
-### 🧊 Secure Cold-Chain Monitor *(simulated)* · 2026
-A simulated ESP32-S3 device that monitors vaccines and medications in transit: temperature, shocks, light exposure and door openings. Readings are published over MQTT.
-Every record is **hash-chained (SHA-256) and HMAC-signed**, so tampering with the log is detected. A Python verifier and a live web dashboard check the chain, and `forge.py` simulates a forged record so you can watch verification fail. The dashboard can also draft an incident report: an LLM writes it when an API key is set, otherwise a template does.
-> ⚠️ **Simulation only.** The signing key is a demo key and the MQTT broker is a public one.
-**Stack:** C++ (Arduino framework, PlatformIO) · Python · MQTT · Wokwi
-🔗 [Repository](https://github.com/Damiiner/secure-cold-chain-monitor) · Live simulation: *coming soon*
-### 🛒 ShopFlow · 2025
-An e-commerce platform where sellers list their products and customers buy them online. The front end and back end are separate applications in one repository, and the API is documented with a Postman collection.
-<!-- TODO: add the stack (back end, database) and main features -->
-🔗 [Repository](https://github.com/Damiiner/ShopFlow) · Live demo: *coming soon*
-### 🤝 LocalFix · 2025 *(group project)*
-A community platform that connects people who need a hand with helpers nearby. Users post small tasks (homework, tech support, errands), filter the task board by category, follow each task from *open* to *done* and browse tasks on an interactive map.
-**My part:** the front end (React, Vite, React Router, Leaflet) and the project report. Teammates built the back end and database, which are not in this repository. The front end runs on its own with sample data.
-🔗 [Repository](https://github.com/Damiiner/LocalFix) · 📄 [Project report (PDF)](https://github.com/Damiiner/LocalFix/blob/main/docs/LocalFix-report.pdf) · Live demo: *coming soon*
-### 🔨 In progress: QueueLess · 2026
-A virtual queue for students: take a digital ticket instead of waiting in person at an administrative office. The goal is a ticket with a position in the queue, an estimated waiting time, a notification when your turn approaches and a dashboard for the staff.
-🔗 [Repository](https://github.com/Damiiner/QueueLess) · The README lists what works today.
+### Selected Work
+**Secure Cold-Chain Monitor** *(simulated)* · 2026
+ESP32-S3 simulation that tracks temperature, shock, light, and door events for cold-chain logistics.
+Telemetry is published over MQTT. Every record is hash-chained (SHA-256) and HMAC-signed so any tampering
+is immediately detectable. Includes a Python verifier, live dashboard, and a deliberate forgery script to
+demonstrate verification failure. Optional LLM-assisted incident reports when an API key is present.
+Stack: C++ (Arduino / PlatformIO) · Python · MQTT · Wokwi
+[Repository](https://github.com/Damiiner/secure-cold-chain-monitor)
+**ShopFlow** · 2025
+Full-stack e-commerce platform. Sellers manage product listings; customers browse and purchase. Front end
+and back end live in the same repository with a documented Postman collection for the API.
+[Repository](https://github.com/Damiiner/ShopFlow)
+**LocalFix** · 2025 *(group project)*
+Community platform that matches people who need help with nearby helpers. Task board with category
+filters, status tracking, and an interactive Leaflet map.
+My contribution: complete front end (React, Vite, React Router, Leaflet) and the project report. The
+front end runs independently with sample data.
+[Repository](https://github.com/Damiiner/LocalFix) · [Project report
+(PDF)](https://github.com/Damiiner/LocalFix/blob/main/docs/LocalFix-report.pdf)
+**QueueLess** · 2026 *(in progress)*
+Native Android application that replaces physical queues at university administrative offices with
+digital tickets. Live position, wait-time estimates, turn notifications, and a staff dashboard.
+[Repository](https://github.com/Damiiner/QueueLess)
+**Additional prototypes**
+Movie recommender, URL phishing detector, and fraud detection models trained on real datasets.
 ---
-## 🌱 Beyond code
-- 🐧 **Linux:** trying out different distributions and tuning my setups
-- 🔒 **Privacy & open source:** using privacy tools and exploring open-source alternatives to everyday software
-- ♟️ **Strategy games:** theory-crafting deck-building strategies
+### Beyond the editor
+- Linux — exploring distributions and refining daily setups
+- Privacy and open source — preferring tools that respect user control and studying open alternatives
+- Strategy games — theory-crafting deck-building systems
 ---
-## 📫 Let's connect
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Amine_Khiareddine-0A66C2?logo=linkedin&logoColor=white)](https://linkedin.com/in/amine-khiareddine-a41749417)
-[![Email](https://img.shields.io/badge/Email-aminkhiareddin@gmail.com-D14836?logo=gmail&logoColor=white)](mailto:aminkhiareddin@gmail.com)
-*Open to feedback, ideas and good Linux tips.*
+### Contact
+[LinkedIn](https://linkedin.com/in/amine-khiareddine) · [Email](mailto:aminkhiareddin@gmail.com) ·
+[GitHub](https://github.com/Damiiner)
+Open to thoughtful feedback, collaboration, and well-reasoned Linux recommendations.

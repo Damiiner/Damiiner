@@ -26,12 +26,13 @@ Third-year software engineering student who learns by building. I design and shi
 ![SQL](https://img.shields.io/badge/SQL-4479A1?style=flat-square&logo=postgresql&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![PlatformIO](https://img.shields.io/badge/PlatformIO-F5822A?style=flat-square&logo=platformio&logoColor=white)
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-333333?style=flat-square&logo=linux&logoColor=FCC624)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
 
-**Additional:** REST · SOAP · H2 · Postman · Wokwi · ESP32 · Pandas · Scikit-Learn
+**Additional:** REST · SOAP · H2 · Postman · Wokwi · ESP32 · Pandas · Scikit-Learn · Keras
 
 ---
 
@@ -41,6 +42,11 @@ Third-year software engineering student who learns by building. I design and shi
   Full-stack recommendation system combining popularity baselines, genre TF-IDF content filtering, and user-based collaborative filtering ($k$-NN). Features dynamic user onboarding via SQLite, cold-start fallback handling, and on-the-fly personalized predictions evaluated on ~100k MovieLens ratings.  
   *Stack:* Python · Scikit-Learn · FastAPI · SQLite · React (Vite)  
   [Repository](https://github.com/Damiiner/movie-recommender)
+
+- **Phishing Link Checker**  
+  Web application that predicts URL phishing risk using a character-level 1D Convolutional Neural Network (CNN) trained on Kaggle's malicious URLs dataset. Features character encoding, custom classification thresholds, FastAPI backend inference, and a React interface.  
+  *Stack:* Python · TensorFlow / Keras · Scikit-Learn · FastAPI · React (Vite)  
+  [Repository](https://github.com/Damiiner/phishing-detector)
 
 - **Secure Cold-Chain Monitor** *(simulated)* · `2026`  
   ESP32-S3 simulation tracking temperature, shock, light, and door events. Telemetry is published over MQTT with SHA-256 hash chaining and HMAC signing for tamper detection. Includes Python verifier, live dashboard, forgery testing script, and optional LLM incident reporting.  
@@ -62,7 +68,7 @@ Third-year software engineering student who learns by building. I design and shi
   [Repository](https://github.com/Damiiner/QueueLess)
 
 - **Additional Prototypes:**  
-  URL phishing detector and credit card fraud detection models trained on real-world datasets.
+  Fraud detection models trained on real-world datasets.
 
 ---
 

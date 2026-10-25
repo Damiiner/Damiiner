@@ -47,20 +47,24 @@ Third-year software engineering student who learns by building. I design and shi
 
 ### Selected Work
 
-- **MovieLens Recommender Engine**  
-  Full-stack recommendation system combining popularity baselines, genre TF-IDF content filtering, and user-based collaborative filtering ($k$-NN). Features dynamic user onboarding via SQLite, cold-start fallback handling, and on-the-fly personalized predictions evaluated on ~100k MovieLens ratings.  
-  *Stack:* Python · Scikit-Learn · FastAPI · SQLite · React (Vite)  
-  [Repository](https://github.com/Damiiner/movie-recommender)
-
-- **Phishing Link Checker**  
-  Web application that predicts URL phishing risk using a character-level 1D Convolutional Neural Network (CNN) trained on Kaggle's malicious URLs dataset. Features character encoding, custom classification thresholds, FastAPI backend inference, and a React interface.  
-  *Stack:* Python · TensorFlow / Keras · Scikit-Learn · FastAPI · React (Vite)  
-  [Repository](https://github.com/Damiiner/phishing-detector)
+- **QueueLess** · `2026` *(In Progress)*  
+  Native Android app replacing physical university queues with digital tickets, real-time wait estimates, turn notifications, and staff dashboards.  
+  [Repository](https://github.com/Damiiner/QueueLess)
 
 - **Secure Cold-Chain Monitor** *(simulated)* · `2026`  
   ESP32-S3 simulation tracking temperature, shock, light, and door events. Telemetry is published over MQTT with SHA-256 hash chaining and HMAC signing for tamper detection. Includes Python verifier, live dashboard, forgery testing script, and optional LLM incident reporting.  
   *Stack:* C++ (Arduino / PlatformIO) · Python · MQTT · Wokwi  
   [Repository](https://github.com/Damiiner/secure-cold-chain-monitor)
+
+- **MovieLens Recommender Engine** · `2026`  
+  Full-stack recommendation system combining popularity baselines, genre TF-IDF content filtering, and user-based collaborative filtering ($k$-NN). Features dynamic user onboarding via SQLite, cold-start fallback handling, and on-the-fly personalized predictions evaluated on ~100k MovieLens ratings.  
+  *Stack:* Python · Scikit-Learn · FastAPI · SQLite · React (Vite)  
+  [Repository](https://github.com/Damiiner/movie-recommender)
+
+- **Phishing Link Checker** · `2026`  
+  Web application that predicts URL phishing risk using a character-level 1D Convolutional Neural Network (CNN) trained on Kaggle's malicious URLs dataset. Features character encoding, custom classification thresholds, FastAPI backend inference, and a React interface.  
+  *Stack:* Python · TensorFlow / Keras · Scikit-Learn · FastAPI · React (Vite)  
+  [Repository](https://github.com/Damiiner/phishing-detector)
 
 - **ShopFlow** · `2025`  
   Full-stack e-commerce platform where sellers manage product listings and customers browse/purchase. Single-repository architecture with a documented Postman collection.  
@@ -71,10 +75,6 @@ Third-year software engineering student who learns by building. I design and shi
   Community task-matching platform with category filters, status tracking, and interactive Leaflet map integration.  
   *Contribution:* Complete frontend implementation (React, Vite, React Router, Leaflet) and project report.  
   [Repository](https://github.com/Damiiner/LocalFix) · [Report (PDF)](https://github.com/Damiiner/LocalFix/blob/main/docs/LocalFix-report.pdf)
-
-- **QueueLess** · `2026` *(In Progress)*  
-  Native Android app replacing physical university queues with digital tickets, real-time wait estimates, turn notifications, and staff dashboards.  
-  [Repository](https://github.com/Damiiner/QueueLess)
 
 - **Additional Prototypes:**  
   Fraud detection models trained on real-world datasets.

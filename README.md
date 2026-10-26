@@ -24,6 +24,10 @@ Third-year software engineering student who learns by building. I design and shi
 ![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white)
 ![Keras](https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
+![YOLOv8](https://img.shields.io/badge/YOLOv8-111F68?style=flat-square)
+![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
@@ -37,6 +41,7 @@ Third-year software engineering student who learns by building. I design and shi
 
 #### Tools & Hardware
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
+![Telegram](https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=flat-square&logo=telegram&logoColor=white)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white)
 ![REST](https://img.shields.io/badge/REST_API-005571?style=flat-square)
 ![Wokwi](https://img.shields.io/badge/Wokwi-282C34?style=flat-square)
@@ -56,6 +61,11 @@ Third-year software engineering student who learns by building. I design and shi
   *Stack:* C++ (Arduino / PlatformIO) · Python · MQTT · Wokwi  
   [Repository](https://github.com/Damiiner/secure-cold-chain-monitor)
 
+- **VisionTrack AI** · `2026`  
+  Real-time object detection and tracking system with an IoT back end. A YOLOv8 detector with ByteTrack gives each object a persistent ID, counts people entering and leaving, and raises an alarm when someone stays in a restricted zone. The alarm sends an annotated photo to Telegram and drives a simulated ESP32 (LED, buzzer, OLED display, servo) over MQTT.  
+  *Stack:* Python · OpenCV · YOLOv8 (PyTorch) · ByteTrack · MQTT · ESP32 (PlatformIO / Wokwi) · Telegram Bot API  
+  [Repository](https://github.com/Damiiner/visiontrack-ai)
+
 - **MovieLens Recommender Engine** · `2026`  
   Full-stack recommendation system combining popularity baselines, genre TF-IDF content filtering, and user-based collaborative filtering ($k$-NN). Features dynamic user onboarding via SQLite, cold-start fallback handling, and on-the-fly personalized predictions evaluated on ~100k MovieLens ratings.  
   *Stack:* Python · Scikit-Learn · FastAPI · SQLite · React (Vite)  
@@ -66,6 +76,11 @@ Third-year software engineering student who learns by building. I design and shi
   *Stack:* Python · TensorFlow / Keras · Scikit-Learn · FastAPI · React (Vite)  
   [Repository](https://github.com/Damiiner/phishing-detector)
 
+- **AI Fraud Detector** · `2026`  
+  Machine-learning system that scores credit-card transactions and routes each one to approve, review, or escalate. Compares logistic regression, XGBoost, and a Keras network, and serves a calibrated XGBoost + Keras ensemble (0.886 test PR-AUC) with cost-based decision rules. Delivered as a tested FastAPI service with a React dashboard for analyst review. Built as a learning project on a public Kaggle dataset, not a production system.  
+  *Stack:* Python · XGBoost · TensorFlow / Keras · Scikit-Learn · FastAPI · SQLite · React  
+  [Repository](https://github.com/Damiiner/fraud-detector)
+
 - **ShopFlow** · `2025`  
   Full-stack e-commerce platform where sellers manage product listings and customers browse/purchase. Single-repository architecture with a documented Postman collection.  
   *Stack:* React · Node.js · Express · MongoDB  
@@ -75,9 +90,6 @@ Third-year software engineering student who learns by building. I design and shi
   Community task-matching platform with category filters, status tracking, and interactive Leaflet map integration.  
   *Contribution:* Complete frontend implementation (React, Vite, React Router, Leaflet) and project report.  
   [Repository](https://github.com/Damiiner/LocalFix) · [Report (PDF)](https://github.com/Damiiner/LocalFix/blob/main/docs/LocalFix-report.pdf)
-
-- **Additional Prototypes:**  
-  Fraud detection models trained on real-world datasets.
 
 ---
 

@@ -1,13 +1,13 @@
 # Amine Khiareddine
-
+ 
 **Software Engineering Student** · *Faculty of Sciences of Monastir (FSM)*
-
+ 
 Third-year software engineering student who learns by building. I design and ship full-stack systems, connected devices, and machine-learning prototypes with a focus on reliability, clarity, and maintainable code. Currently seeking a **final-year (PFE) internship in 2027** to contribute to real production projects.
-
+ 
 ---
-
+ 
 ### Tech Stack
-
+ 
 #### Core & Frameworks
 ![Java](https://img.shields.io/badge/Java-3A75B4?style=flat-square&logo=openjdk&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-4CAF50?style=flat-square&logo=springboot&logoColor=white)
@@ -18,7 +18,7 @@ Third-year software engineering student who learns by building. I design and shi
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black)
 ![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
-
+ 
 #### Data, ML & Infrastructure
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=flat-square&logo=scikit-learn&logoColor=white)
@@ -28,6 +28,8 @@ Third-year software engineering student who learns by building. I design and shi
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white)
 ![YOLOv8](https://img.shields.io/badge/YOLOv8-111F68?style=flat-square)
 ![XGBoost](https://img.shields.io/badge/XGBoost-189FDD?style=flat-square)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6446?style=flat-square)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white)
@@ -38,7 +40,7 @@ Third-year software engineering student who learns by building. I design and shi
 ![MQTT](https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=mqtt&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-333333?style=flat-square&logo=linux&logoColor=FCC624)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
-
+ 
 #### Tools & Hardware
 ![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
 ![Telegram](https://img.shields.io/badge/Telegram_Bot_API-26A5E4?style=flat-square&logo=telegram&logoColor=white)
@@ -47,62 +49,57 @@ Third-year software engineering student who learns by building. I design and shi
 ![Wokwi](https://img.shields.io/badge/Wokwi-282C34?style=flat-square)
 ![SOAP](https://img.shields.io/badge/SOAP-007396?style=flat-square)
 ![H2](https://img.shields.io/badge/H2_Database-003B57?style=flat-square)
-
+ 
 ---
-
+ 
 ### Selected Work
-
-- **QueueLess** · `2026` *(In Progress)*  
-  Native Android app replacing physical university queues with digital tickets, real-time wait estimates, turn notifications, and staff dashboards.  
-  [Repository](https://github.com/Damiiner/QueueLess)
-
+ 
+- **UniConnect** *(working title)* · `2026` *(In Progress)*  
+  University management platform that brings timetables, grades, announcements, and messaging into one place, and connects students, teachers, and administrators across multiple universities through a single shared system instead of one isolated portal per institution.
+- **DocuMind AI** · `2026`  
+  Local study assistant for your own PDFs. Ask questions and get answers with page-referenced sources, or generate multiple-choice quizzes from a document. Retrieval combines embeddings with cross-encoder re-ranking, questions the documents cannot answer are refused, and every quiz question carries an evidence sentence verified word-for-word against the source. Runs fully offline with Ollama, so no API key is needed and no document leaves the computer. Evaluated on a self-written benchmark (87 % top-6 retrieval, 23 of 27 good answers). Built as a learning project, not a production system.  
+  *Stack:* Python · Ollama (Llama 3.2) · ChromaDB · PyMuPDF · FastAPI · React (Vite)  
+  [Repository](https://github.com/Damiiner/documind-ai)
 - **Secure Cold-Chain Monitor** *(simulated)* · `2026`  
   ESP32-S3 simulation tracking temperature, shock, light, and door events. Telemetry is published over MQTT with SHA-256 hash chaining and HMAC signing for tamper detection. Includes Python verifier, live dashboard, forgery testing script, and optional LLM incident reporting.  
   *Stack:* C++ (Arduino / PlatformIO) · Python · MQTT · Wokwi  
   [Repository](https://github.com/Damiiner/secure-cold-chain-monitor)
-
 - **VisionTrack AI** · `2026`  
   Real-time object detection and tracking system with an IoT back end. A YOLOv8 detector with ByteTrack gives each object a persistent ID, counts people entering and leaving, and raises an alarm when someone stays in a restricted zone. The alarm sends an annotated photo to Telegram and drives a simulated ESP32 (LED, buzzer, OLED display, servo) over MQTT.  
   *Stack:* Python · OpenCV · YOLOv8 (PyTorch) · ByteTrack · MQTT · ESP32 (PlatformIO / Wokwi) · Telegram Bot API  
   [Repository](https://github.com/Damiiner/visiontrack-ai)
-
 - **MovieLens Recommender Engine** · `2026`  
   Full-stack recommendation system combining popularity baselines, genre TF-IDF content filtering, and user-based collaborative filtering ($k$-NN). Features dynamic user onboarding via SQLite, cold-start fallback handling, and on-the-fly personalized predictions evaluated on ~100k MovieLens ratings.  
   *Stack:* Python · Scikit-Learn · FastAPI · SQLite · React (Vite)  
   [Repository](https://github.com/Damiiner/movie-recommender)
-
 - **Phishing Link Checker** · `2026`  
   Web application that predicts URL phishing risk using a character-level 1D Convolutional Neural Network (CNN) trained on Kaggle's malicious URLs dataset. Features character encoding, custom classification thresholds, FastAPI backend inference, and a React interface.  
   *Stack:* Python · TensorFlow / Keras · Scikit-Learn · FastAPI · React (Vite)  
   [Repository](https://github.com/Damiiner/phishing-detector)
-
 - **AI Fraud Detector** · `2026`  
   Machine-learning system that scores credit-card transactions and routes each one to approve, review, or escalate. Compares logistic regression, XGBoost, and a Keras network, and serves a calibrated XGBoost + Keras ensemble (0.886 test PR-AUC) with cost-based decision rules. Delivered as a tested FastAPI service with a React dashboard for analyst review. Built as a learning project on a public Kaggle dataset, not a production system.  
   *Stack:* Python · XGBoost · TensorFlow / Keras · Scikit-Learn · FastAPI · SQLite · React  
   [Repository](https://github.com/Damiiner/fraud-detector)
-
 - **ShopFlow** · `2025`  
   Full-stack e-commerce platform where sellers manage product listings and customers browse/purchase. Single-repository architecture with a documented Postman collection.  
   *Stack:* React · Node.js · Express · MongoDB  
   [Repository](https://github.com/Damiiner/ShopFlow)
-
 - **LocalFix** · `2025` *(Group Project)*  
   Community task-matching platform with category filters, status tracking, and interactive Leaflet map integration.  
   *Contribution:* Complete frontend implementation (React, Vite, React Router, Leaflet) and project report.  
   [Repository](https://github.com/Damiiner/LocalFix) · [Report (PDF)](https://github.com/Damiiner/LocalFix/blob/main/docs/LocalFix-report.pdf)
-
 ---
-
+ 
 ### Beyond the Editor
-
+ 
 - **Linux Systems** — Exploring distribution internals, shell scripting, and daily workflow customization.
 - **Privacy & Open Source** — Studying open-source alternatives and tools prioritizing user autonomy.
 - **Strategy Games** — Game mechanic design and theory-crafting deck-building mechanics.
-
 ---
-
+ 
 ### Contact
-
+ 
 [LinkedIn](https://linkedin.com/in/amine-khiareddine) · [Email](mailto:aminkhiareddin@gmail.com) · [GitHub](https://github.com/Damiiner)
-
+ 
 *Open to feedback, technical collaboration, and well-reasoned Linux discussions.*
+ 
